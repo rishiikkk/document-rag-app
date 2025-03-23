@@ -4,3 +4,7 @@ sudo service postgresql start
 
 #Run the API
 uvicorn main:app --reload
+
+#Install Dependencies
+pip install fastapi uvicorn ollama asyncpg llama-index
+
