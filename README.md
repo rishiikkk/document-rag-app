@@ -1,4 +1,4 @@
-# document-rag-app
+# Document-rag-app
 # Document Management and RAG-based Q&A Application
 
 This project implements a FastAPI-based backend that supports document management, embedding generation, and RAG-based Q&A using Ollama and PostgreSQL.
