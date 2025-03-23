@@ -10,3 +10,6 @@ pip install fastapi uvicorn ollama asyncpg llama-index
 
 #Create rag_db if dont have one
 CREATE DATABASE rag_db;
+
+#Run PostgreSQL
+uvicorn main:app --reload
