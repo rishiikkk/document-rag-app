@@ -1,0 +1,6 @@
+#Start PostgreSQL
+sudo service postgresql start
+
+
+#Run the API
+uvicorn main:app --reload
