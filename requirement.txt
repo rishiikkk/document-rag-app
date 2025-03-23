@@ -8,3 +8,5 @@ uvicorn main:app --reload
 #Install Dependencies
 pip install fastapi uvicorn ollama asyncpg llama-index
 
+#Create rag_db if dont have one
+CREATE DATABASE rag_db;
